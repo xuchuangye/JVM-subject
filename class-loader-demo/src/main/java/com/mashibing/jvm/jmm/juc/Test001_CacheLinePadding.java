@@ -1,4 +1,4 @@
-package com.mashibing.jvm.classloader.juc;
+package com.mashibing.jvm.jmm.juc;
 
 /**
  * 缓存行-伪共享的问题

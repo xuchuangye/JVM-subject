@@ -1,4 +1,4 @@
-package com.mashibing.jvm.classloader.juc;
+package com.mashibing.jvm.jmm.juc;
 
 /**
  * 缓存行-伪共享问题的解决方案：缓存行对齐（利用空间换时间）
