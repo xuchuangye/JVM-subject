@@ -12,7 +12,7 @@ public class Test011_ClassReloading1 {
 
 	public static void main(String[] args) throws ClassNotFoundException {
 		Test005_CustomClassLoader classLoader = new Test005_CustomClassLoader();
-		Class<?> clazz = classLoader.loadClass("com.mashibing.jvm.test.Hello");
+		Class<?> clazz = classLoader.loadClass("com.mashibing.jvm.classloader.test.Hello");
 
 		classLoader = null;
 		System.out.println(clazz.hashCode());
@@ -20,7 +20,7 @@ public class Test011_ClassReloading1 {
 		classLoader = null;
 		classLoader = new Test005_CustomClassLoader();
 
-		Class<?> aClass = classLoader.loadClass("com.mashibing.jvm.test.Hello");
+		Class<?> aClass = classLoader.loadClass("com.mashibing.jvm.classloader.test.Hello");
 		System.out.println(aClass.hashCode());
 		System.out.println(aClass == clazz);
 	}

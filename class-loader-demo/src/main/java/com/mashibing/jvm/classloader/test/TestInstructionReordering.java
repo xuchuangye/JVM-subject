@@ -1,4 +1,4 @@
-package com.mashibing.jvm.test;
+package com.mashibing.jvm.classloader.test;
 
 /**
  * 测试指令重排序

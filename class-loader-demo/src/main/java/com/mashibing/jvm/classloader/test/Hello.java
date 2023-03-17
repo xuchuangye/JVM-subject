@@ -1,4 +1,4 @@
-package com.mashibing.jvm.test;
+package com.mashibing.jvm.classloader.test;
 
 /**
  * @author xcy

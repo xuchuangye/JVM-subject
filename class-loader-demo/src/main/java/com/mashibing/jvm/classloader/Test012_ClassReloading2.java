@@ -35,11 +35,11 @@ public class Test012_ClassReloading2 {
 
 	public static void main(String[] args) throws ClassNotFoundException {
 		MyClassLoader myClassLoader = new MyClassLoader();
-		Class<?> aClass = myClassLoader.loadClass("com.mashibing.jvm.test.Hello");
+		Class<?> aClass = myClassLoader.loadClass("com.mashibing.jvm.classloader.test.Hello");
 		System.out.println(aClass.hashCode());
 
 		myClassLoader = new MyClassLoader();
-		Class<?> clazz = myClassLoader.loadClass("com.mashibing.jvm.test.Hello");
+		Class<?> clazz = myClassLoader.loadClass("com.mashibing.jvm.classloader.test.Hello");
 		System.out.println(clazz.hashCode());
 
 		System.out.println(aClass == clazz);
