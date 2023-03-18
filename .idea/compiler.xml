@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ObjectSize" />
         <module name="class-loader-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="class-loader-demo" target="1.8" />
+      <module name="ObjectSize" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

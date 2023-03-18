@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/class-loader-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/ObjectSize/pom.xml" />
       </list>
     </option>
   </component>

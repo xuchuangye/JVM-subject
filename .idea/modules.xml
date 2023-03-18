@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JVM-subject.iml" filepath="$PROJECT_DIR$/.idea/JVM-subject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectSize/ObjectSize.iml" filepath="$PROJECT_DIR$/ObjectSize/ObjectSize.iml" />
       <module fileurl="file://$PROJECT_DIR$/class-loader-demo/class-loader-demo.iml" filepath="$PROJECT_DIR$/class-loader-demo/class-loader-demo.iml" />
     </modules>
   </component>
