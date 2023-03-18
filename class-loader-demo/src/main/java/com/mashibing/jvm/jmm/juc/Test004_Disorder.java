@@ -35,7 +35,6 @@ public class Test004_Disorder {
 			});
 			one.start();
 			other.start();
-			
 			one.join();
 			other.join();
 			String result = "第" + i + "次 (" + x + "," + y + "）";
