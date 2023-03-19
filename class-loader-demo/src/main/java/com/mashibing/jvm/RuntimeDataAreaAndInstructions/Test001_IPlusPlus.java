@@ -1,4 +1,4 @@
-package com.mashibing.jvm.jmm;
+package com.mashibing.jvm.RuntimeDataAreaAndInstructions;
 
 /**
  * 通过JClassLib工具查看字节码
@@ -6,7 +6,7 @@ package com.mashibing.jvm.jmm;
  * @author xcy
  * @date 2023/3/18 - 21:05
  */
-public class Test004_IPlusPlus {
+public class Test001_IPlusPlus {
 	public static void main(String[] args) {
 		int i = 8;
 		//  0 bipush 8 将8符号扩展成int类型，推送到操作数堆栈中
